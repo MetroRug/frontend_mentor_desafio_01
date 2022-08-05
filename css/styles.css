@@ -18,14 +18,14 @@ main {
     text-align: center;
     background-color: var(--white);
     width: 600px;
-    height: 500px;
+    height: 470px;
     margin: 0 auto;
 }
 
 #produto_img {
     float: left;
     width: 300px;
-    height: 500px;
+    height: 470px;
     margin-right: 30px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -38,14 +38,16 @@ main {
 }
 
 #perfume {
-    color: var(--dark-grayish-blue);
+    padding-top: 20px;
     font-size: 9px;
     font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);
 }
 
 #title {
-    font-size: 20px;
-    font-weight: bold
+    padding-top: 0px;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 #description {
@@ -55,31 +57,44 @@ main {
     color: var(--dark-grayish-blue);
 }
 
-.precos {
-    flex-direction: row;
-}
-
 #valor_atual {
+    float: left;
     font-family: 'Fraunces', serif;
     color: var(--dark-cyan);
 }
 
 #valor_anterior {
-    font-size: 10px;
+    margin-top: 33px;
+    margin-right: 80px;
+    float: right;
+    font-size: 14px;
     text-decoration: line-through;
     color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
 }
 
 #btn-compra {
     border-radius: 10px;
     border: none;
-    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
     background-color: var(--dark-cyan);
     color: var(--white);
     height: 50px;
-    width: 200px;
+    width: 250px;
+}
+
+#btn-compra img {
+    margin-right: 10px;
 }
 
 .attribution {
+    margin-top: 60px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+#btn-compra:hover {
+    background-color: var(--very-dark-blue);
 }
